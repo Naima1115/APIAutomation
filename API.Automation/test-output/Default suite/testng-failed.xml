@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="get.Ex2">
+      <class name="post_get.PutPatchDelete">
         <methods>
-          <include name="f"/>
+          <include name="testPut"/>
         </methods>
-      </class> <!-- get.Ex2 -->
+      </class> <!-- post_get.PutPatchDelete -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
